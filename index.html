@@ -1,0 +1,217 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/output.css">
+  <link 
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+  rel="stylesheet">
+
+<title>Portofolio</title>
+</head>
+<body class="font-poppins">
+
+  <!-- section -->
+   <div class="h-1/2 lg:h-screen bg-gradient-to-t from-teal-200 relative overflow-hidden">
+
+    <!-- navbar -->
+     <nav class="w-full fixed top-0 bg-white items-center z-10">
+      <div class="container mx-auto py-5 px-5 xl:px-10 flex items-center justify-between">
+        <span class="text-2xl font-semibold text-teal-500">baY</span>
+        <ul class="hidden md:flex space-x-10 text-gray-500 font-medium text-sm uppercase">
+          <li class="hover:text-gray-500">
+            <a href="#home">Home</a>
+          </li>
+          <li class="hover:text-gray-500">
+            <a href="#about">About Me</a>
+          </li>
+          <li class="hover:text-gray-500">
+            <a href="#works">My Projects</a>
+          </li>
+          <li class="hover:text-gray-500">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+          <div class="w-6 h-0.5 bg-teal-500"></div>
+          <div class="w-6 h-0.5 bg-teal-500"></div>
+          <div class="w-6 h-0.5 bg-teal-500"></div>
+        </div>
+        <ul id="menu" class="hidden bg-teal-500 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-center text-sm font-semibold uppercase">
+          <li class="text-white">
+            <a href="#">Home</a>
+          </li>
+          <li class="text-white">
+            <a href="#">About Me</a>
+          </li>
+          <li class="text-white">
+            <a href="#">My Projects</a>
+          </li>
+          <li class="text-white">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+     </nav>
+
+     <!-- homepage  -->
+      <div id="home">
+        <div class="grid gap-8 absolute lg:top-36 text-big left-0 right-0 mx-auto text-center justify-items-center">
+          <span class="text-black font-ligh ">Hello, I Am Dharma</span>
+          <p class="text-white text-medium drop-shadow-sm">A Student</p>
+          <a class="bg-white rounded text-xl uppercase w-fit p-6 font-semibold text-teal-500" href="">Contact Me</a>
+        </div>
+
+        <!-- circle -->
+        <div class="hidden lg:flex  space-y-10 w-extra h-extra -z-10 rounded-full bg-teal-100 -bottom-60 right-0 left-0 mx-auto  absolute "></div>
+        <div class="hidden lg:flex space-y-10 w-big h-big -z-10 rounded-full bg-teal-600 -bottom-1/3 right-0 left-0 mx-auto absolute "></div>
+      </div>
+   </div>
+
+   <!-- about  -->
+   <div id="about" class="px-10 bg-gradient-to-b from-teal-200">
+    <div
+      class="container mx-auto pt-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+    >
+      <!-- left -->
+      <div class="relative">
+        <span class="hidden lg:flex text-teal-500 text-super">Hi!</span>
+      </div>
+      <!-- right -->
+      <div class="my-auto flex flex-col gap-3">
+        <h1 class="text-lg text-black font-semibold">About Me</h1>
+        <h1 class="text-3xl font-medium">Student At</h1>
+        <h1 class="text-3xl font-bold text-teal-500">
+          Udayana University
+        </h1>
+        <p class="text-gray-500">
+          As a student at Udayana University, my curiosity drives me to explore beyond the classroom. I'm also always curious and eager to explore new things, 
+          whether it's diving into the blockchain world, reading books to expand my knowledge, or seeking out fresh experiences. 
+          My curiosity drives me to dig deep into blockchain technology, understanding its potential and staying updated on its innovations. 
+          Reading books fuels my mind, opening up different perspectives and sparking new ideas. 
+          Building websites is where my curiosity meets creativity—constantly learning new techniques, experimenting with designs, and pushing boundaries
+          to create something unique.
+        </p>
+      </div>
+    </div>
+   </div>
+
+   <!-- works -->
+   <div id="works">
+    <div class="container mx-auto pt-40">
+      <!-- top -->
+      <div class="flex flex-col gap-3 items-center">
+        <h1 class="text-black font-bold">PORTFOLIO</h1>
+        <h1 class="text-3xl text-teal-400">Works & Projects</h1>
+        <p class="w-1/2 text-center text-gray-400">
+          Here's a glimpse of my portfolio, featuring a project that I built as a student at Udayana University.
+        </p>
+      </div>
+      <!-- bottom -->
+      <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+        >
+          <img src="./src/img/item.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container mx-auto py-20">
+
+      <div class="flex flex-col gap-3 items-center">
+        <h1 class="text-teal-400 font-bold">CONTACT</h1>
+        <h1 class="text-3xl text-black">Have a Question?</h1>
+        <p class="w-1/2 text-center text-gray-400">
+          Do you have an idea? Let's discuss it and see what we can do
+        </p>
+      </div>
+
+      <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+        <input
+          class="p-2 w-full md:w-1/2 ring-1 ring-teal-400 rounded-sm  text-black"
+          type="text"
+          placeholder="Name Surname"
+        />
+        <input
+          class="p-2 w-full md:w-1/2 ring-1 ring-teal-400 rounded-sm  text-black"
+          type="email"
+          placeholder="Email"
+        />
+        <textarea
+          class="p-2 w-full md:w-1/2 ring-1 ring-teal-400 rounded-sm  text-black"
+          cols="30"
+          rows="10"
+          placeholder="Write A Message Here"
+        ></textarea>
+        <button class="w-1/2 bg-teal-400 text-white font-medium px-3 py-2 rounded-md cursor-pointer">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="w-full bg-teal-400">
+    <div class="container mx-auto py-5 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl font-bold text-white">baY.</span>
+      </div>
+      <div class="flex gap-2">
+        <img class="w-4 cursor-pointer" src="./src/img/facebook.png" alt="" />
+        <img class="w-4 cursor-pointer" src="./src/img/instagram.png" alt="" />
+        <img class="w-4 cursor-pointer" src="./src/img/twitter.png" alt="" />
+        <img class="w-4 cursor-pointer" src="./src/img/linkedin.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+
+   <script src="./src/app.js"></script>
+</body>
+</html>
